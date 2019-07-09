@@ -18,9 +18,9 @@ public class ShortMessageTool {
 
     protected static final Logger LOG = LoggerFactory.getLogger(ShortMessageTool.class);
     @Value("${masterSecret}")
-    private static String masterSecret = "d517380983b6e16884fc8a2a";
+    private static String masterSecret = "381a78804aadb80fad046c83";
     @Value("${appkey}")
-    private static String appkey = "2d7f7dc965a072cda456df21";
+    private static String appkey = "95de08380ba9d478167af884";
     @Value("${jPushUrl}")
     private static String uri = "https://api.sms.jpush.cn/v1/messages";
 

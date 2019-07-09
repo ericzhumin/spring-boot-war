@@ -28,8 +28,8 @@ public class RestBaseController {
         String res=null;
         try {
             JgMessageEntity jgMessageEntity = new JgMessageEntity();
-            jgMessageEntity.setSubject("测试");
-            String iphonenume = "15900959575";
+            jgMessageEntity.setSubject("晚上好");
+            String iphonenume = "13311705786";
             ShortMessageTool.sendMessage(iphonenume, jgMessageEntity);
             res ="发送内容："+jgMessageEntity.getSubject()+",接收人手机："+iphonenume;
 
