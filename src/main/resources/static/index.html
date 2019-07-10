@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--<link href="../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">-->
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]>
+    <!--<script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]&ndash;&gt;-->
+    <!--<script src="../../assets/js/ie-emulation-modes-warning.js"></script>-->
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <!--<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>-->
+    <!--<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
+    <![endif]-->
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container" >
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">短信推送测试</a>
+        </div>
+        <!--<div id="navbar" class="collapse navbar-collapse">-->
+        <!--<ul class="nav navbar-nav">-->
+        <!--<li class="active"><a href="#">卡产品</a></li>-->
+        <!--<li><a href="#about">快递信息</a></li>-->
+        <!--<li><a href="#contact">Contact</a></li>-->
+        <!--</ul>-->
+        <!--</div>&lt;!&ndash;/.nav-collapse &ndash;&gt;-->
+    </div>
+</nav>
+
+<div class="container" style="margin-top:60px;">
+
+    <!--<div class="starter-template">-->
+    <!--<h1>Bootstrap starter template</h1>-->
+    <!--<p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>-->
+    <!--</div>-->
+
+    <div>
+
+        <!-- Nav tabs -->
+        <!--<ul class="nav nav-tabs" role="tablist">-->
+            <!--<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab"-->
+                                                      <!--data-toggle="tab">手机</a></li>-->
+            <!--<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">手机</a>-->
+            <!--</li>-->
+            <!--&lt;!&ndash;<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>&ndash;&gt;-->
+            <!--&lt;!&ndash;<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>&ndash;&gt;-->
+        <!--</ul>-->
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="home">
+                <form action="">
+                    <div class="form-group">
+                        <label for="exampleInputPhone">手机</label>
+
+                        <input type="number" class="form-control" id="exampleInputPhone" placeholder="手机">
+                        <!--<button type="button" class="btn btn-primary btn-lg top:15px;" data-toggle="modal" data-target="#myModal">-->
+                        <!--查找-->
+                        <!--</button>-->
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="exampleInputContent">内容</label>
+                        <input type="text" class="form-control" id="exampleInputContent" placeholder="内容">
+                    </div>
+
+                    <!--<div class="form-group">-->
+                        <!--<label for="exampleInputCurrentPage">当前页数</label>-->
+                        <!--<input type="number" class="form-control" id="exampleInputCurrentPage" placeholder="当前页数">-->
+                    <!--</div>-->
+
+                    <!--<div id="alert" class="alert alert-success alert-dismissible" role="alert">-->
+                        <!--<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span-->
+                                <!--aria-hidden="true">&times;</span></button>-->
+                        <!--<strong>成功!</strong> 卡列表数据已经保存到表格。-->
+                    <!--</div>-->
+
+                    <button type="button" class="btn btn-default" id="send">发送</button>
+                    <!--<button type="button" class="btn btn-default" id="UpdateStatus">更新状态</button>-->
+                </form>
+            </div>
+            <!--<div role="tabpanel" class="tab-pane" id="profile">-->
+                <!--<div class="form-group">-->
+                    <!--<label for="exampleInputAmount2">制卡单编号</label>-->
+                    <!--<input type="text" class="form-control" id="exampleInputAmount2" placeholder="制卡单编号">-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                    <!--<label for="exampleInputOrderId">物流单号</label>-->
+                    <!--<input type="text" class="form-control" id="exampleInputOrderId" placeholder="物流单号">-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                    <!--<label for="exampleInputCompany">物流名称</label>-->
+                    <!--<input type="text" class="form-control" id="exampleInputCompany" placeholder="物流名称">-->
+                <!--</div>-->
+                <!--<button type="button" class="btn btn-default" id="SendCardStatus">发送</button>-->
+
+            <!--</div>-->
+        </div>
+
+    </div>
+
+
+</div><!-- /.container -->
+
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<!--<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">-->
+    <!--<div class="modal-dialog" role="document">-->
+        <!--<div class="modal-content">-->
+            <!--<div class="modal-header">-->
+                <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>-->
+                <!--</button>-->
+                <!--<h4 class="modal-title" id="myModalLabel">Modal title</h4>-->
+            <!--</div>-->
+            <!--<div class="modal-body">-->
+                <!--<div class="form-group">-->
+                    <!--<label for="exampleInputAmount">制卡单编号</label>-->
+
+                    <!--<input type="text" class="form-control" id="exampleInputAmount" placeholder="制卡单编号">-->
+                    <!--&lt;!&ndash;<button type="button" class="btn btn-primary btn-lg top:15px;" data-toggle="modal" data-target="#myModal">&ndash;&gt;-->
+                    <!--&lt;!&ndash;查找&ndash;&gt;-->
+                    <!--&lt;!&ndash;</button>&ndash;&gt;-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="modal-footer">-->
+                <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+<script src="../dist/js/jquery.min.js"></script>
+<!--<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>-->
+<script src="../dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<!--<script src="../assets/js/ie10-viewport-bug-workaround.js"></script>-->
+
+<script type="text/javascript">
+    // <script type="text/javascript">
+    // var sysId = "${model.sysId}";
+    // var status = "${status}";
+    //
+
+    function SendCardInfo() {
+
+        location.href = ""
+        // $.post("${pageContext.request.contextPath}/getcardorderquery", data, function (obj) {
+        //
+        // });
+
+
+    }
+
+    $(function () {
+        //获取卡列表表格 方法
+        $("#send").click(function () {
+            var phone = $('#exampleInputPhone').val();
+            var content = $('#exampleInputContent').val();
+
+            if (phone != null && phone != '' && content != null && content != '' ) {
+                var data = {"phone": phone, "content": content};
+                $.ajax({
+                    type: "POST",
+                    url: "/send",
+                    data: JSON.stringify(data),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response, ifo) {
+                        if (response) {
+                           alert("短信发送成功！")
+                        }else {
+                            alert("短信发送失败！")
+                        }
+                    }
+                });
+            }
+        });
+        //更新卡状态
+        $("#UpdateStatus").click(function () {
+            var card_order_id = $('#exampleInputAmount').val();
+            if (card_order_id != null && card_order_id != '') {
+                var data = {"card_order_id": card_order_id};
+
+                $.ajax({
+                    type: "POST",
+                    url: "/makecardstatus",
+                    data: JSON.stringify(data),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response, ifo) {
+                        if (response) {
+                            alert("成功！")
+                        }else {
+                            alert("失败！")
+                        }
+                    }
+                });
+            }
+        });
+        //更新物流信息
+        $("#SendCardStatus").click(function () {
+            var card_order_id = $("#exampleInputAmount2").val();
+            var logistics_order_id = $("#exampleInputOrderId").val();
+            var logistics_company = $("#exampleInputCompany").val();
+
+
+            if (card_order_id != null && card_order_id != ''
+                && logistics_order_id != null && logistics_order_id != ''
+                && logistics_company != null && logistics_company != '') {
+                var data = {
+                    "card_order_id": card_order_id,
+                    "logistics_order_id": logistics_order_id,
+                    "logistics_company": logistics_company
+                };
+                $.ajax({
+                    type: "POST",
+                    url: "/cardordersStatusSended",
+                    data: JSON.stringify(data),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response, ifo) {
+                        if (response) {
+                            alert("成功！")
+                        }else {
+                            alert("失败！")
+                        }
+                    }
+                });
+            }
+        });
+    })
+
+</script>
+</body>
+</html>
