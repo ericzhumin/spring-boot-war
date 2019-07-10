@@ -31,7 +31,7 @@ public class ShortMessageTool {
         String templeteId = entity.getTemplateID();
             payload = SMSPayload.newBuilder()
                     .setMobileNumber(phone)
-                    .setTempId(166932)  //测试模板编号
+                    .setTempId(167001)  //测试模板编号
                     .addTempPara("subject", entity.getSubject())
                     .build();
         try {
