@@ -39,7 +39,7 @@ public class RestBaseController {
             jgMessageEntity.setSubject(jsonObject.getString("content"));
             String iphonenume = jsonObject.getString("phone");
             ShortMessageTool.sendMessage(iphonenume, jgMessageEntity);
-            log.info("接收人Dean："+iphonenume+",接收内容："+jsonObject.getString("content"));
+            log.info("接收人dddDean："+iphonenume+",接收内容："+jsonObject.getString("content"));
             res = "true";
 
 
