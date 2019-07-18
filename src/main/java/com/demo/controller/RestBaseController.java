@@ -72,6 +72,7 @@ public class RestBaseController {
 
         } catch (Exception ex) {
             log.info("出现异常,错误详细："+ex.getMessage());
+            
             res = "false";
         }
 
