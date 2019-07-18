@@ -1,4 +1,4 @@
-package com.pivotal.example.demo.entity;
+package com.demo.entity;
 
 public class JgMessageEntity {
 

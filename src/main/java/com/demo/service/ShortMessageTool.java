@@ -1,4 +1,4 @@
-package com.pivotal.example.demo.service;
+package com.demo.service;
 
 import cn.jiguang.common.resp.APIConnectionException;
 import cn.jiguang.common.resp.APIRequestException;
@@ -7,7 +7,7 @@ import cn.jsms.api.common.SMSClient;
 import cn.jsms.api.common.model.SMSPayload;
 //import com.associationcloud.system.schdule.schdule.domain.JgMessageEntity;
 //import com.associationcloud.system.schdule.schdule.domain.PaymentNoticeEntity;
-import com.pivotal.example.demo.entity.JgMessageEntity;
+import com.demo.entity.JgMessageEntity;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
